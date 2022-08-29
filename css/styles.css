@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Area do cabecalho*/
+#cabecalho{      
+    background-color: #FF8000;   
+    text-align: center;
+    padding: 20px;
+}
+
+#logo{
+    padding: 10px;
+    font-size: 1.5em;
+    font-style: oblique;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;    
+    color: #FFF;
+    padding: 3px;
+}
+
+#menu a:hover{
+    color: #FF8000;
+    background-color: #FFF;
+}
+
+/*Formatação do meio e laterais direita e esquerda*/
+
+#principal{    
+    width: 1300px;
+    margin: 0 auto;     
+}
+
+#conteudo{    
+   /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #9C9C9C;   
+     
+}
+
+#lateral-esquerda{    
+    width: 300px;          
+}
+
+#lateral-direita{
+    width: 300px;
+}
+
+#meio-tela{    
+    width: 600px;
+}
+
+#meio-tela, #lateral-direita, #lateral-esquerda{
+    margin: 0 10px;  
+    display: block;
+    justify-content: center;
+    align-items: center;     
+    background-color: #FFF;
+    float: left; 
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    border-bottom: 1px dotted black;
+}
+
+.subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.titulo-filme{
+    padding: 10px;
+    background-color: #8B8A8A;
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+    border-bottom: 1px dotted black;  
+    text-align: center;
+    
+}
+    
+
+.titulo, .subtitulo{
+    padding: 5px;
+    background-color: #757373;  
+
+}
+
+.filmes {     
+    background-color: #8B8A8A;
+}
+
+.config-imagem{
+    float: left; 
+    margin-right: 5px;    
+}
+
+.imagem{
+    width: 188px;
+    height: 268px;
+}
+
+.sinopse{
+    clear: right;   
+    
+}
+
+.sinopse,.info-filme{
+    background-color: #8B8A8A;
+}
+
+/*Formatações gerais*/
+
+.clear{
+    clear: both;
+}
+.branco{
+    color: #C5C4C4;
+}
+
+/*Formatação do rodapé*/
+#rodape{
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #757373;
+    color: #FFF;
+    font-style: italic;
+    border-top: 1px solid black;    
+}
+
+.name{
+    font-weight: bold;
+    text-decoration: underline;
+}
